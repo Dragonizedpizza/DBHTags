@@ -402,4 +402,5 @@ client.on("interactionCreate", (interaction: ComponentInteraction) => {
 	return;
 });
 
+// Login to the client
 client.connect();
