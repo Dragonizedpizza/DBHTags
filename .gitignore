@@ -1,0 +1,8 @@
+node_modules/
+
+dist/
+
+data/
+data/config.hjson
+
+.pnpm-debug.log

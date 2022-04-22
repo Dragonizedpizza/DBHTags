@@ -1,0 +1,28 @@
+{
+	"name": "dbhtags",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node dist/index.js"
+	},
+	"type": "module",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@sapphire/ts-config": "^3.3.4",
+		"@types/centra": "^2.2.0",
+		"@types/hjson": "^2.4.3"
+	},
+	"dependencies": {
+		"@octokit/rest": "^18.12.0",
+		"@types/object-path": "^0.11.1",
+		"centra": "^2.5.0",
+		"eris": "^0.16.1",
+		"eris-util": "1.0.4",
+		"hjson": "^3.2.2",
+		"object-path": "^0.11.8"
+	}
+}
