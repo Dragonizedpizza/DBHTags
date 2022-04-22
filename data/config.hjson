@@ -1,0 +1,14 @@
+# Note, this is hjson, not json. Do not make prs saying that this doesn't have quotes over the values, that it lacks commas, or that it has comments.
+{
+    // Your bot token,
+    token: SussyBotToken
+    // Your bot prefix,
+    prefixes: ["t!", "dbht!"]
+    // Your GitHub token, to walk through the DBH docs repositories
+    // Though it is optional, it is recommended to have a GitHub token as it provides higher ratelimits
+    GitHubToken: SussyGitHubToken
+    tagOverrides: {
+        // Tag names, instead of whatever the file names were, for example:
+        // sharex-setup: sharex
+    }
+}

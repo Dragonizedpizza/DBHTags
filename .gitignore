@@ -2,7 +2,7 @@ node_modules/
 
 dist/
 
-data/
-data/config.hjson
+# data/
+data/db.json
 
 .pnpm-debug.log
