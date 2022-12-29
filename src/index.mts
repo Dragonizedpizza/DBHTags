@@ -230,7 +230,7 @@ await getAllDocs("docs")
 					await Centra(data[key])
 						.send()
 						.then((x) => x.text())
-				).replaceAll(/^(#+)(.*)$/g, (x) =>
+				).replaceAll(/^(#+)(.*)$/gs, (x) =>
 					x.replaceAll("#", "").trim(),
 				),
 			} as Database.TagOptions);
